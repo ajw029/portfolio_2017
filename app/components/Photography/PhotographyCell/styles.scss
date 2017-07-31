@@ -1,0 +1,30 @@
+.photographyCell {
+    padding: 0 16px;
+    margin: 0;
+	flex: 1;
+
+    &.half_horizontal_cell {
+        img {
+            width: 100%;
+            vertical-align: middle;
+        }
+    }
+	&.half_vertical_cell {
+        img {
+            width: 100%;
+            vertical-align: middle;
+        }
+    }
+    &.full_horizontal_cell {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+
+    h3.caption, h2.title {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}

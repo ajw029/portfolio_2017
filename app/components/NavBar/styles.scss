@@ -1,0 +1,27 @@
+nav.navbar {
+    height: 64px;
+    padding: 0 16px;
+    ul {
+
+        display: inline-block;
+        list-style: none;
+        li {
+            display: inline-block;
+            padding: 21px 0;
+            a {
+                font-size: 22px;
+                font-weight: 200;
+            }
+
+        }
+        li:not(:last-child) {
+            margin-right: 16px;
+        }
+    }
+
+    ul.navbar-right {
+        float: right;
+    }
+
+    border-bottom: 1px solid black;
+}
